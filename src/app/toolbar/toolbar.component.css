@@ -1,0 +1,14 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+span {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: lighter
+}
