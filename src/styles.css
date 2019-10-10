@@ -4,3 +4,40 @@
 body {
   margin: 0
 }
+
+.Advert {
+  margin: 20px;
+  color: #484848;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px
+}
+
+.sidenav-container {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  border: 0px #eeeeee;
+  background-color: #eeeeee;
+}
+
+mat-drawer {
+  width: 20%;
+  background-color: #cfd8dc;
+}
+
+.footer {
+    position: relative;
+    line-height: 2.4rem;
+    z-index: 0;
+    background-color: #ff5722;
+    font-weight: 300;
+    flex: 1 1 0%;
+    padding: 48px;
+    height: 70px;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend Deca', sans-serif;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
