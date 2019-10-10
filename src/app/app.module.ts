@@ -8,11 +8,12 @@ import { AppMaterialModule } from './app-material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { TopperComponent } from './topper/topper.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule, AppRoutingModule, AppMaterialModule ],
-  declarations: [ AppComponent, HomeComponent, ToolbarComponent ],
+  declarations: [ AppComponent, HomeComponent, TopperComponent, ToolbarComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
