@@ -26,6 +26,12 @@ h3 {
   margin-top: 35px;
   margin-bottom: 35px;
   -webkit-justify-content: center; /_ Safari _/
-  justify-content:         center;
+  justify-content: center;
   display: flex;
+}
+
+.container-list {
+	width: 100%;
+  position: absolute;
+  background-color: #eeeeee;
 }
