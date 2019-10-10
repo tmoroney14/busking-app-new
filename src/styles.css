@@ -3,6 +3,7 @@
 
 body {
   margin: 0;
+  height: 100%
 }
 
 .Advert {
@@ -33,7 +34,7 @@ mat-drawer {
     z-index: 0;
     background-color: #ff5722;
     font-weight: 300;
-    flex: 1 1 0%;
+
     padding: 48px;
     height: 70px;
     bottom: 0px;
