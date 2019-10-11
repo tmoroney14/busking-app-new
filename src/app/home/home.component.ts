@@ -1,6 +1,7 @@
 import { Component, AfterViewInit, ViewChild, HostListener, OnDestroy } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationEnd, Routes } from '@angular/router';
 import { BehaviorSubject, Observable } from 'rxjs';
+import { buskers } from '../buskers';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements AfterViewInit, OnDestroy {
+  buskers = buskers;
 
   showToggle: string;
   mode: string;
