@@ -1,4 +1,5 @@
-import { Component, AfterViewInit, ViewChild, HostListener } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, HostListener, OnDestroy } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 @Component({
@@ -6,7 +7,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements AfterViewInit {
+export class HomeComponent implements AfterViewInit, OnDestroy {
 
   showToggle: string;
   mode: string;
