@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  height: 100%
+  position: relative;
 }
 
 .Advert {
@@ -17,13 +17,12 @@ body {
 
 .sidenav-container {
   width: 100%;
-  position: fixed;
-  height: 100%;
-  min-height: 100%;
-  min-width: 100%;
+  position: relative;
   margin: 0px;
   border: 0px #eeeeee;
   background-color: #eeeeee;
+  display: flex;
+  flex: 1 1 auto
 }
 
 mat-drawer {
@@ -42,4 +41,5 @@ mat-drawer {
     color: rgb(255, 255, 255);
     font-family: 'Lexend Deca', sans-serif;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+    position: relative
 }
