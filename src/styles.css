@@ -1,11 +1,8 @@
 /* Add application styles & imports to this file! */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-html,
 body {
   margin: 0;
-  position: relative;
-  height: 100%
 }
 
 .Advert {
@@ -19,17 +16,16 @@ body {
 
 .sidenav-container {
   width: 100%;
-  position: relative;
   margin: 0px;
   border: 0px #eeeeee;
   background-color: #eeeeee;
-  display: flex;
-  flex: 1 1 auto
 }
 
 mat-drawer {
-  width: 300px;
+  width: 14%;
+  max-width: 350px;
   background-color: #cfd8dc;
+  margin-left: auto
 }
 
 .footer {
