@@ -58,5 +58,9 @@ export class DetailsComponent implements OnInit {
   getScreenWidth(): Observable<number> {
     return this.screenWidth$.asObservable();
   }
+  
 
+  ngAfterViewInit() {
+   window.scrollTo(0, 0);
+  }
 }

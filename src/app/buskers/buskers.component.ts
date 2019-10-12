@@ -42,4 +42,8 @@ export class BuskersComponent implements OnInit {
     return this.screenWidth$.asObservable();
   }
 
+  ngAfterViewInit() {
+   window.scrollTo(0, 0);
+  }
+
 }

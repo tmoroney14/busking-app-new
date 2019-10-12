@@ -100,21 +100,25 @@ mat-expansion-panel-header {
 .mat-twitter {
     background-color: #1DA1F2;
     color: #fff;
+    text-align: center
 }
 
 .mat-insta {
     background-color: #E1306C;
     color: #fff;
+    text-align: center
 }
 
 .mat-youtube {
     background-color: #FF0000;;
     color: #fff;
+    text-align: center
 }
 
 .mat-facebook {
   background-color: #0D47A1;
   color: #fff;
+  text-align: center
 }
 
 .sidenav-container {
