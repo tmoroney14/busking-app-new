@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild, HostListener, OnDestroy } from '@angular/core';
 import { ActivatedRoute, RouterModule, Routes } from '@angular/router';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { buskers } from '../buskers';
 import { SafePipe } from '../safe.pipe';
 
