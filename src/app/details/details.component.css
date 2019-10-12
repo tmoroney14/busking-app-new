@@ -4,7 +4,7 @@
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; 
-  height: 0;
+  height: 80px;
 }
 .iframe-container iframe{
   position: absolute;
@@ -18,13 +18,12 @@
 mat-spinner {
   margin:auto;
   display:block;
-  top: 45%;
-  left: 45%;
-  position: absolute;
+  position: relative;
+  top: 20vh
 }
 
 mat-tab-group {
-  margin: 20px
+  margin: 20px;
 }
 
 h3 {
@@ -41,7 +40,7 @@ p {
 }
 
 .card-title {
-  font-size: 40px;
+  font-size: 180%;
   padding: 10px;
 }
 
@@ -56,6 +55,9 @@ p {
   border:2px solid #FF3D00;
   flex-grow: 1;
   max-height: 800px;
+  margin-top: 18px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .mat-expansion-panel {
@@ -85,7 +87,7 @@ mat-expansion-panel-header {
 
 .details-container {
   margin: auto;
-  max-width: 1200px;
+  max-width: 800px;
 }
 
 .social-media {

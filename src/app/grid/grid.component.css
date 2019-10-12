@@ -1,0 +1,27 @@
+mat-grid-tile {
+  background: lightblue;
+}
+
+.tile1 {
+  background-color: #FF3D00;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.tile2 {
+  background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size: 40px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.tile3 {
+  background-color: #FFAB00
+}
+
+h3 {
+  color: white;
+  text-align: center
+}
