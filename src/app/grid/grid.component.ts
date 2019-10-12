@@ -10,7 +10,7 @@ export class GridComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.breakpoint = (window.innerWidth <= 800) ? 1 : 1;
+    this.breakpoint = (window.innerWidth <= 800) ? 1 : 2;
   }
   
   onResize(event) {
