@@ -22,12 +22,12 @@ export class BuskersComponent implements OnInit {
 
   ngOnInit() {
     this.getScreenWidth().subscribe(width => {
-       if (width < 900) {
+       if (width < 1000) {
         this.showToggle = 'show';
         this.mode = 'over';
         this.openSidenav = false;
       }
-      else if (width > 900) {
+      else if (width > 1000) {
         this.showToggle = 'hide';
         this.mode = 'side';
         this.openSidenav = true;

@@ -9,6 +9,13 @@
   margin:auto;
 }
 
+.container-list {
+	width: 100%;
+  position: relative;
+	height: 100%;
+  background-color: #eeeeee;
+}
+
 button {
   margin:auto;
   display:block;
@@ -31,7 +38,6 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
-
 mat-card-title {
   cursor: pointer;
   font-family: 'Lexend Deca', sans-serif;
@@ -49,4 +55,8 @@ mat-card-title {
   margin-bottom: 8px;
   font-weight: 700;
   text-align: center;
+}
+
+mat-drawer-content {
+  height: 100%;
 }

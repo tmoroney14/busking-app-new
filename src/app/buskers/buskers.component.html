@@ -3,6 +3,7 @@
     <p class="Advert">Advertisement</p>
   </mat-drawer>
   <mat-drawer-content>
+<div class="container-list">
 <p class="title">Buskers</p>
 <div class="grid">
 <div *ngFor="let busker of buskers | slice:0:8; let i=index; index as buskerId;">
@@ -19,10 +20,9 @@
     <mat-card-subtitle style="color:white;">{{ busker.description }}</mat-card-subtitle>
   </mat-card-header>
 </mat-card>
-
 </div>
 
 </div>
-
+</div>
   </mat-drawer-content>
 </mat-drawer-container>
