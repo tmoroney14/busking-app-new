@@ -13,6 +13,11 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent implements OnInit {
+  
+  faTwitter = faTwitter;
+  faInstagram = faInstagram;
+  faFacebook = faFacebook;
+  faYoutube = faYoutube;
 
    constructor(
     private route: ActivatedRoute,

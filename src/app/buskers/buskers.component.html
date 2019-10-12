@@ -6,6 +6,7 @@
   <mat-drawer-content>
 
 <p class="title">Buskers</p>
+<div class="buskers">
 <div class="grid">
 <div *ngFor="let busker of buskers, let i=index; index as buskerId;">
   
@@ -21,6 +22,7 @@
     <mat-card-subtitle style="color:white;">{{ busker.description }}</mat-card-subtitle>
   </mat-card-header>
 </mat-card>
+</div>
 </div>
 </div>
 

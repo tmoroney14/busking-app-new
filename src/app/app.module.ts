@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppMaterialModule } from './app-material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,7 +17,7 @@ import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, RouterModule, FlexLayoutModule, AppRoutingModule, AppMaterialModule ],
+  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, RouterModule, FlexLayoutModule, AppRoutingModule, AppMaterialModule, FontAwesomeModule ],
   declarations: [ AppComponent, HomeComponent, TopperComponent, ToolbarComponent, BuskersComponent, DetailsComponent ],
   bootstrap:    [ AppComponent ]
 })
