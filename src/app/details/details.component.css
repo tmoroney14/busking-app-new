@@ -10,6 +10,10 @@ mat-spinner {
   position: absolute;
 }
 
+mat-tab-group {
+  margin: 20px
+}
+
 h3 {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 50px;
@@ -110,4 +114,16 @@ mat-expansion-panel-header {
 .mat-facebook {
   background-color: #0D47A1;
   color: #fff;
+}
+
+.sidenav-container {
+  width: 100%;
+  margin: 0px;
+  border: 0px #eeeeee;
+  background-color: #eeeeee;
+}
+
+mat-drawer {
+  width: 200px;
+  background-color: #cfd8dc;
 }

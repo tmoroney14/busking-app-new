@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, ViewChild, HostListener, OnDestroy } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild, HostListener, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd, Routes } from '@angular/router';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { buskers } from '../buskers';

@@ -29,6 +29,34 @@ export class DetailsComponent implements OnInit {
   this.route.paramMap.subscribe(params => {
     this.busker = buskers[+params.get('buskerId')];
   });
+  this.getScreenWidth().subscribe(width => {
+       if (width < 1000) {
+        this.showToggle = 'show';
+        this.mode = 'over';
+        this.openSidenav = false;
+      }
+      else if (width > 1000) {
+        this.showToggle = 'hide';
+        this.mode = 'side';
+        this.openSidenav = true;
+      }
+    });
+  }
+
+  showToggle: string;
+  mode: string;
+  openSidenav:boolean;
+  private screenWidth$ = new BehaviorSubject<number>
+    (window.innerWidth);
+
+  @ViewChild('sidenav') matSidenav: MatSidenav;
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    this.screenWidth$.next(event.target.innerWidth);
+  }
+  getScreenWidth(): Observable<number> {
+    return this.screenWidth$.asObservable();
   }
 
 }
