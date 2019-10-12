@@ -7,13 +7,12 @@
   background-color: #eeeeee;
   padding-top: 2%;
   margin:auto;
-  height: 100%
 }
 
 .container-list {
 	width: 100%;
   position: relative;
-	min-height: 100vh;
+	height: 100%;
   background-color: #eeeeee;
 }
 
@@ -56,4 +55,8 @@ mat-card-title {
   margin-bottom: 8px;
   font-weight: 700;
   text-align: center;
+}
+
+mat-drawer-content {
+  height: 100%;
 }
