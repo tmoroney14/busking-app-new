@@ -12,11 +12,12 @@ import { HomeComponent } from './home/home.component';
 import { TopperComponent } from './topper/topper.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BuskersComponent } from './buskers/buskers.component';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, RouterModule, FlexLayoutModule, AppRoutingModule, AppMaterialModule ],
-  declarations: [ AppComponent, HomeComponent, TopperComponent, ToolbarComponent, BuskersComponent ],
+  declarations: [ AppComponent, HomeComponent, TopperComponent, ToolbarComponent, BuskersComponent, DetailsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

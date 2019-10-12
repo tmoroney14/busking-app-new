@@ -1,0 +1,16 @@
+<div *ngIf="busker">
+  <h3 class="header-name">{{ busker.name }}</h3>
+</div>
+
+<mat-accordion multi="true">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header style="font-size: 15px">
+      <mat-panel-title>
+        About {{ busker.name }} 
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <p> {{ busker.para1 }} </p>
+    <p> {{ busker.para2 }} </p>
+    
+  </mat-expansion-panel>
+</mat-accordion>

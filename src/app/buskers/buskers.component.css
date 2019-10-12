@@ -2,21 +2,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   grid-gap: 1.8rem;
-  max-width: 1400px;
+  max-width: 1700px;
   padding: 10%;
   background-color: #eeeeee;
   padding-top: 2%;
   margin:auto;
-}
-
-mat-drawer-content {
-  height: 100%
-}
-
-button {
-  margin:auto;
-  display:block;
-  margin-bottom: 50px
 }
 
 .card {
@@ -54,3 +44,16 @@ mat-card-title {
   text-align: center;
 }
 
+.sidenav-container {
+  width: 100%;
+  margin: 0px;
+  border: 0px #eeeeee;
+  background-color: #eeeeee;
+  display: flex;
+  flex: 1 1 auto
+}
+
+mat-drawer {
+  width: 200px;
+  background-color: #cfd8dc;
+}
