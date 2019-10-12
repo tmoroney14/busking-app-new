@@ -45,7 +45,7 @@
 
   <mat-tab label="Videos">
 
-    <mat-card>
+    <mat-card class="video-card">
       <h3 class="card-title">All Busking Videos</h3>
       <div id="spinner">
         <div>
@@ -55,18 +55,18 @@
       <iframe onload="document.getElementById('spinner').style.display='none';this.style.visibility = 'visible';" width="100%" height="100%" [src]="busker.videos | safe: 'resourceUrl'" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; gyroscope;" allowfullscreen ></iframe>
     </mat-card>
     
-    <mat-card>
+    <mat-card class="video-card">
       <h3 class="card-title">{{ busker.other }}</h3>
       <iframe onload="document.getElementById('spinner').style.display='none';this.style.visibility = 'visible';" width="100%" height="400" [src]="busker.live | safe: 'resourceUrl'" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; gyroscope;" allowfullscreen></iframe>
     </mat-card>
 
   </mat-tab>
   <mat-tab label="Music">
-    <mat-card>
+    <mat-card class="video-card">
       <h3 class="card-title">{{ busker.musict1 }}</h3>
       <iframe onload="this.style.visibility = 'visible';" width="100%" height="400" [src]="busker.music1 | safe: 'resourceUrl'" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; gyroscope;" allowfullscreen ></iframe>
     </mat-card>
-    <mat-card>
+    <mat-card class="video-card">
       <h3 class="card-title">{{ busker.musict2 }}</h3>
       <iframe onload="this.style.visibility = 'visible';" [src]="busker.music2 | safe: 'resourceUrl'" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </mat-card>
