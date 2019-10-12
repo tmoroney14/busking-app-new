@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule, Routes } from '@angular/router';
 import { buskers } from '../buskers';
+import { SafePipe } from '../safe.pipe';
 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';

@@ -14,11 +14,12 @@ import { TopperComponent } from './topper/topper.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BuskersComponent } from './buskers/buskers.component';
 import { DetailsComponent } from './details/details.component';
+import { SafePipe } from './safe.pipe';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, RouterModule, FlexLayoutModule, AppRoutingModule, AppMaterialModule, FontAwesomeModule ],
-  declarations: [ AppComponent, HomeComponent, TopperComponent, ToolbarComponent, BuskersComponent, DetailsComponent ],
+  declarations: [ AppComponent, HomeComponent, TopperComponent, ToolbarComponent, BuskersComponent, DetailsComponent, SafePipe ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

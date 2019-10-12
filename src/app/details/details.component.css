@@ -1,5 +1,17 @@
+iframe {
+  visibility:hidden;
+}
+
+mat-spinner {
+  margin:auto;
+  display:block;
+  top: 45%;
+  left: 45%;
+  position: absolute;
+}
+
 h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-size: 50px;
   padding-top: 6px;
   padding-left: 6px;
@@ -11,12 +23,18 @@ p {
   font-size: 18px
 }
 
+.card-title {
+  font-size: 40px;
+  padding: 10px
+}
+
 .mat-card {
   margin: 4px;
   margin-top: 15px;
+  margin-bottom: 15px;
   padding: 10px;
+  border:2px solid #DD2C00;
 }
-
 
 .mat-expansion-panel {
   margin: 15px;
