@@ -33,6 +33,7 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
         this.openSidenav = true;
       }
     });
+
   }
   @HostListener('window:resize', ['$event'])
   onResize(event) {
