@@ -37,7 +37,13 @@ p {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 10px;
+}
+
+.video-card {
   border:2px solid #DD2C00;
+  flex-grow: 1;
+  max-height: 600px;
+  min-height: 300px
 }
 
 .mat-expansion-panel {
@@ -68,7 +74,6 @@ mat-expansion-panel-header {
 .details-container {
   margin: auto;
   max-width: 800px;
-  flex-grow: 1;
 }
 
 .social-media {
@@ -79,7 +84,7 @@ mat-expansion-panel-header {
   color: White;
   margin-left: 30px;
   margin-right: 30px;
-  border:2px solid #263238;
+  border:0px solid #263238;
 }
 
 .socials-margin {
@@ -87,7 +92,6 @@ mat-expansion-panel-header {
   margin-right: 15px;
   margin-top: 20px;
   margin-bottom: 20px
-
 }
 
 .example-button-row button,
