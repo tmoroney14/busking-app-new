@@ -60,7 +60,5 @@ export class DetailsComponent implements OnInit {
   }
   
 
-  ngAfterViewInit() {
-   window.scrollTo(0, 0);
-  }
+
 }

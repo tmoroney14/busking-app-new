@@ -1,4 +1,17 @@
-iframe {
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   visibility:hidden;
 }
 
@@ -40,10 +53,9 @@ p {
 }
 
 .video-card {
-  border:2px solid #DD2C00;
+  border:2px solid #FF3D00;
   flex-grow: 1;
-  max-height: 600px;
-  min-height: 300px
+  max-height: 800px;
 }
 
 .mat-expansion-panel {
@@ -73,7 +85,7 @@ mat-expansion-panel-header {
 
 .details-container {
   margin: auto;
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 .social-media {
