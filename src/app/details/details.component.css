@@ -19,7 +19,16 @@ p {
 
 .mat-expansion-panel {
   margin: 15px;
-  background-color: #ff8a50;
+  background-color: #FBE9E7;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0px;
+  border:3px solid #FF5722;
+}
+
+mat-expansion-panel-header {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .header-name {
@@ -28,4 +37,41 @@ p {
   font-size: 50px;
   padding-top: 6px;
   padding-left: 6px;
+  margin-left: 25px;
+  margin-right: 30px
+}
+
+.details-container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.social-media {
+  text-align: center;
+  background-color: #263238;
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin: 12px;
+  margin-top: 0px;
+  padding: 0px
+}
+
+.mat-twitter {
+    background-color: #1DA1F2;
+    color: #fff;
+}
+
+.mat-insta {
+    background-color: #E1306C;
+    color: #fff;
+}
+
+.mat-youtube {
+    background-color: #FF0000;;
+    color: #fff;
 }
