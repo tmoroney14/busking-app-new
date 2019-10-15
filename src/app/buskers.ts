@@ -91,10 +91,10 @@ export const buskers = [
     other: 'Channel Uploads',
     videos: 'https://www.youtube.com/embed/videoseries?list=PL7Hzq1i4Oc9CptZZxT71lwvSNhxTff0Ub',
     live: 'https://www.youtube.com/embed/videoseries?list=UU1XkRRVbQSS8-3X48iMGOVA',
-    musict1: 'Original Music',
-    musict2: 'Spotify',
-    music1: 'https://open.spotify.com/embed/artist/54NoJVgezmrMKZp2G1wznx',
-    music2: 'https://www.youtube.com/embed/videoseries?list=PL7oB9Ax76_-Tr9IrDexRYn3F1nDMGU7_4',
+    musict1: 'Spotify',
+    musict2: 'Interview',
+    music1: 'https://open.spotify.com/embed/artist/4YqgYWET9Brxdqye4vaxct',
+    music2: 'https://www.youtube.com/embed/lQ08EG4C3ns',
 
     description: 'Paul Jenkinson is an acoustic artist and accomplished songwriter who can be found often busking on Grafton Street.',
     para1: 'Mainly found capturing ears and hearts while busking along Grafton Street, Paul Jenkinson is an acoustic artist who is also an accomplished songwriter.',
@@ -117,13 +117,34 @@ export const buskers = [
     music1: 'https://www.youtube.com/embed/videoseries?list=UUBZk7aAZWC3-G7xWlVUp09Q',
     music2: 'https://www.youtube.com/embed/x3iIbqy0PCM',
 
-    description: 'Aged 15, Saibh is from Dublin and busks on Grafton Street regularly, playing covers.',
-    para1: 'Aged 15, Saibh is from Dublin and busks on Grafton Street regularly, playing covers.',
+    description: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
+    para1: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
     para2: '',
     twitter: 'https://twitter.com/Samcliffordmus1',
     insta: 'https://www.instagram.com/samcliffordmusic/',
     facebook: '',
     youtube: 'https://www.youtube.com/channel/UCBZk7aAZWC3-G7xWlVUp09Q',
+  },
+
+{
+    name: 'Harry Fennell',
+
+    image: 'https://i.ytimg.com/vi/nk6-6Zp2fCs/maxresdefault.jpg',
+    videos: 'https://www.youtube.com/embed/videoseries?list=PL7Hzq1i4Oc9AdE7kL-7Sz7ZyS89iD2YvV',
+    other: 'Collaboration',
+    live: 'https://www.youtube.com/embed/qWVvLnGb7i4',
+    musict1: 'Original Music',
+    musict2: 'Collaboration',
+    music1: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/554500461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+    music2: 'https://www.youtube.com/embed/8D8qQGgRlOc&t=1s',
+
+    description: 'Harry Hippie, lies asleep in the shade life dont bug him cause he thinks hes got it made.',
+    para1: 'Harry Hippie, lies asleep in the shade life dont bug him cause he thinks hes got it made.',
+    para2: '',
+    twitter: '',
+    insta: 'https://www.instagram.com/harry.fennell',
+    facebook: 'https://www.facebook.com/HarryFennellMusic/',
+    youtube: 'https://www.youtube.com/channel/UCvs4xKpJs2m1nXpf9B5yTkg',
   },
 
   
