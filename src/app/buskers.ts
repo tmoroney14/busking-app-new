@@ -63,27 +63,6 @@ export const buskers = [
   },
 
   {
-    name: 'Saibh Skelly',
-
-    image: 'https://i.ytimg.com/vi/U1a_KiDId0k/maxresdefault.jpg',
-    videos: 'https://www.youtube.com/embed/videoseries?list=PL7Hzq1i4Oc9Cvb7bXO4MXxN8YTIMLnPfs',
-    other: 'Interview',
-    live: 'https://www.youtube.com/embed/OQlZT4EVGO8',
-    musict1: 'Channel Uploads',
-    musict2: 'Collaboration',
-    music1: 'https://www.youtube.com/embed/videoseries?list=UUZfseNRa3zHbw2dD5JLiRLg',
-    music2: 'https://www.youtube.com/embed/Pxm30ayyCoA',
-
-    description: 'Aged 15, Saibh is from Dublin and busks on Grafton Street regularly, playing covers.',
-    para1: 'Aged 15, Saibh is from Dublin and busks on Grafton Street regularly, playing covers.',
-    para2: '',
-    twitter: '',
-    insta: 'https://www.instagram.com/saibhskellymusic',
-    facebook: 'https://www.facebook.com/saibhskellymusic',
-    youtube: 'https://www.youtube.com/channel/UCZfseNRa3zHbw2dD5JLiRLg',
-  },
-
-  {
     name: 'Paul Jenkinson',
 
     header: 'https://i.scdn.co/image/633d954057796269bc82bf591ce980ea450abdec',
@@ -103,6 +82,27 @@ export const buskers = [
     insta: 'https://www.instagram.com/pauljenkomusic/',
     facebook: 'https://www.facebook.com/pauljenkomusic/',
     youtube: 'https://www.youtube.com/channel/UC1XkRRVbQSS8-3X48iMGOVA',
+  },
+
+  {
+    name: 'Saibh Skelly',
+
+    image: 'https://i.ytimg.com/vi/U1a_KiDId0k/maxresdefault.jpg',
+    videos: 'https://www.youtube.com/embed/videoseries?list=PL7Hzq1i4Oc9Cvb7bXO4MXxN8YTIMLnPfs',
+    other: 'Interview',
+    live: 'https://www.youtube.com/embed/OQlZT4EVGO8',
+    musict1: 'Channel Uploads',
+    musict2: 'Collaboration',
+    music1: 'https://www.youtube.com/embed/videoseries?list=UUZfseNRa3zHbw2dD5JLiRLg',
+    music2: 'https://www.youtube.com/embed/Pxm30ayyCoA',
+
+    description: 'Aged 15, Saibh is from Dublin and busks on Grafton Street regularly, playing covers.',
+    para1: 'Aged 15, Saibh is from Dublin and busks on Grafton Street regularly, playing covers.',
+    para2: '',
+    twitter: '',
+    insta: 'https://www.instagram.com/saibhskellymusic',
+    facebook: 'https://www.facebook.com/saibhskellymusic',
+    youtube: 'https://www.youtube.com/channel/UCZfseNRa3zHbw2dD5JLiRLg',
   },
 
 {
