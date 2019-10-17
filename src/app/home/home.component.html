@@ -1,25 +1,32 @@
 <div class="container-top">
 <app-topper></app-topper>
 </div>
+<div class="container">
+  <mat-card class="twitter-card">
+    <h3 style="font-size: 25px">LIVE BOX</h3>
+    <a class="twitter-timeline" data-height="520px" data-width="100%" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/BotBusking?ref_src=twsrc%5Etfw"><mat-progress-bar mode="indeterminate" color="warn"></mat-progress-bar></a>
+  </mat-card>
+  </div>
 <div class="container-list">
 <mat-drawer-container class="sidenav-container" >
   <mat-drawer mode="side" #sidenav [opened]="openSidenav" >
     <p class="Advert">Advertisement</p>
   </mat-drawer>
   <mat-drawer-content>
-  <ng-adsense></ng-adsense>
-  <div class="container">
-  <mat-card class="twitter-card">
-    <h3 style="font-size: 25px">LIVE BOX</h3>
-    <a class="twitter-timeline" data-height="520px" data-width="100%" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/BotBusking?ref_src=twsrc%5Etfw"><mat-progress-bar mode="indeterminate" color="warn"></mat-progress-bar></a>
-  </mat-card>
-  </div>
+  
   <app-grid> </app-grid>
   <mat-divider></mat-divider>
   <p class="title">Buskers</p>
+
+  <mat-grid-list [cols]="breakpoint" rowHeight="1:1" (window:resize)="onResize($event)">
+  <div *ngFor="let busker of buskers | slice:0:4; let i=index; index as buskerId;"> 
+  <mat-grid-tile class="tile2"><h3>{{ busker.name }}</h3></mat-grid-tile>
+  </div>
+  </mat-grid-list>
+
+<!--
 <div class="grid">
-<div *ngFor="let busker of buskers | slice:0:6; let i=index; index as buskerId;">
-  
+<div *ngFor="let busker of buskers | slice:0:6; let i=index; index as buskerId;"> 
 <mat-card class="card" [routerLink]="['/buskers', buskerId]" matRipple
      [matRippleCentered]="centered"
      [matRippleDisabled]="disabled"
@@ -32,9 +39,9 @@
     <mat-card-subtitle style="color:white;">{{ busker.description }}</mat-card-subtitle>
   </mat-card-header>
 </mat-card>
-
 </div>
 </div>
+-->
 
 <button mat-raised-button color="warn" [routerLink]="['/buskers']" >More Buskers</button>
 
