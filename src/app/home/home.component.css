@@ -101,6 +101,9 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
+.profile {
+  margin:auto;
+}
 
 mat-card-title {
   cursor: pointer;

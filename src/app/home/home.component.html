@@ -20,7 +20,7 @@
   <mat-grid-list [cols]="breakpoint" rowHeight="2:1" (window:resize)="onResize($event)">
   <div *ngFor="let busker of buskers | slice:0:4; let i=index; index as buskerId;"> 
   <mat-grid-tile class="tile">
-    <mat-card class="card" [routerLink]="['/buskers', buskerId]" matRipple
+    <mat-card class="profile" [routerLink]="['/buskers', buskerId]" matRipple
      [matRippleCentered]="centered"
      [matRippleDisabled]="disabled"
      [matRippleUnbounded]="unbounded"
