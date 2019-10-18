@@ -33,14 +33,14 @@ export class HomeComponent implements AfterViewInit, OnDestroy {
         this.openSidenav = true;
       }
     });
-    this.breakpoint = (window.innerWidth <= 700) ? 1 : 2;
+    this.breakpoint = (window.innerWidth <= 900) ? 1 : 2;
   }
 
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
     this.screenWidth$.next(event.target.innerWidth);
-    this.breakpoint = (event.target.innerWidth <= 700) ? 1 : 2;
+    this.breakpoint = (event.target.innerWidth <= 900) ? 1 : 2;
   }
   getScreenWidth(): Observable<number> {
     return this.screenWidth$.asObservable();

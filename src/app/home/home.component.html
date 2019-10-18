@@ -17,9 +17,9 @@
   <mat-divider></mat-divider>
   <p class="title">Buskers</p>
 
-  <mat-grid-list [cols]="breakpoint" rowHeight="1:1" (window:resize)="onResize($event)">
+  <mat-grid-list [cols]="breakpoint" rowHeight="2:1" (window:resize)="onResize($event)">
   <div *ngFor="let busker of buskers | slice:0:4; let i=index; index as buskerId;"> 
-  <mat-grid-tile class="tile2"><h3>{{ busker.name }}</h3></mat-grid-tile>
+  <mat-grid-tile class="tile"><h3>{{ busker.name }}</h3></mat-grid-tile>
   </div>
   </mat-grid-list>
 
