@@ -19,7 +19,20 @@
 
   <mat-grid-list [cols]="breakpoint" rowHeight="2:1" (window:resize)="onResize($event)">
   <div *ngFor="let busker of buskers | slice:0:4; let i=index; index as buskerId;"> 
-  <mat-grid-tile class="tile"><h3>{{ busker.name }}</h3></mat-grid-tile>
+  <mat-grid-tile class="tile">
+    <mat-card class="card" [routerLink]="['/buskers', buskerId]" matRipple
+     [matRippleCentered]="centered"
+     [matRippleDisabled]="disabled"
+     [matRippleUnbounded]="unbounded"
+     [matRippleRadius]="radius"
+     [matRippleColor]="color">
+  <img mat-card-image [src]="busker.image" alt="Photo of {{ busker.name }}">
+  <mat-card-header >
+    <mat-card-title>{{ busker.name }}</mat-card-title>
+    <mat-card-subtitle style="color:white;">{{ busker.description }}</mat-card-subtitle>
+  </mat-card-header>
+</mat-card>
+  </mat-grid-tile>
   </div>
   </mat-grid-list>
 
