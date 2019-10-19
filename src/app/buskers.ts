@@ -61,6 +61,27 @@ export const buskers = [
     facebook: 'https://www.facebook.com/Jacobpkoopman',
     youtube: 'https://www.youtube.com/user/MrJackPhantom',
   },
+  
+  {
+    name: 'Sam Clifford',
+
+    image: 'https://i.ytimg.com/vi/tO3NQfkNiaQ/maxresdefault.jpg',
+    videos: 'https://www.youtube.com/embed/videoseries?list=PL7Hzq1i4Oc9Bo8YyPLdXLBy15sF-Fn_Aq',
+    other: 'Interview',
+    live: 'https://www.youtube.com/embed/Wi7FI8DA5qU',
+    musict1: 'Channel Uploads',
+    musict2: 'Collaboration',
+    music1: 'https://www.youtube.com/embed/videoseries?list=UUBZk7aAZWC3-G7xWlVUp09Q',
+    music2: 'https://www.youtube.com/embed/x3iIbqy0PCM',
+
+    description: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
+    para1: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
+    para2: '',
+    twitter: 'https://twitter.com/Samcliffordmus1',
+    insta: 'https://www.instagram.com/samcliffordmusic/',
+    facebook: '',
+    youtube: 'https://www.youtube.com/channel/UCBZk7aAZWC3-G7xWlVUp09Q',
+  },
 
   {
     name: 'Paul Jenkinson',
@@ -106,27 +127,6 @@ export const buskers = [
   },
 
 {
-    name: 'Sam Clifford',
-
-    image: 'https://i.ytimg.com/vi/tO3NQfkNiaQ/maxresdefault.jpg',
-    videos: 'https://www.youtube.com/embed/videoseries?list=PL7Hzq1i4Oc9Bo8YyPLdXLBy15sF-Fn_Aq',
-    other: 'Interview',
-    live: 'https://www.youtube.com/embed/Wi7FI8DA5qU',
-    musict1: 'Channel Uploads',
-    musict2: 'Collaboration',
-    music1: 'https://www.youtube.com/embed/videoseries?list=UUBZk7aAZWC3-G7xWlVUp09Q',
-    music2: 'https://www.youtube.com/embed/x3iIbqy0PCM',
-
-    description: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
-    para1: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
-    para2: '',
-    twitter: 'https://twitter.com/Samcliffordmus1',
-    insta: 'https://www.instagram.com/samcliffordmusic/',
-    facebook: '',
-    youtube: 'https://www.youtube.com/channel/UCBZk7aAZWC3-G7xWlVUp09Q',
-  },
-
-{
     name: 'Harry Fennell',
 
     image: 'https://i.ytimg.com/vi/nk6-6Zp2fCs/maxresdefault.jpg',
@@ -145,6 +145,27 @@ export const buskers = [
     insta: 'https://www.instagram.com/harry.fennell',
     facebook: 'https://www.facebook.com/HarryFennellMusic/',
     youtube: 'https://www.youtube.com/channel/UCvs4xKpJs2m1nXpf9B5yTkg',
+  },
+
+{
+    name: 'Sam Clifford',
+
+    image: 'https://i.ytimg.com/vi/tO3NQfkNiaQ/maxresdefault.jpg',
+    videos: 'https://www.youtube.com/embed/videoseries?list=PL7Hzq1i4Oc9Bo8YyPLdXLBy15sF-Fn_Aq',
+    other: 'Interview',
+    live: 'https://www.youtube.com/embed/Wi7FI8DA5qU',
+    musict1: 'Channel Uploads',
+    musict2: 'Collaboration',
+    music1: 'https://www.youtube.com/embed/videoseries?list=UUBZk7aAZWC3-G7xWlVUp09Q',
+    music2: 'https://www.youtube.com/embed/x3iIbqy0PCM',
+
+    description: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
+    para1: 'Aged 15, Sam is from Dublin and busks on Grafton Street regularly, playing covers.',
+    para2: '',
+    twitter: 'https://twitter.com/Samcliffordmus1',
+    insta: 'https://www.instagram.com/samcliffordmusic/',
+    facebook: '',
+    youtube: 'https://www.youtube.com/channel/UCBZk7aAZWC3-G7xWlVUp09Q',
   },
 
   
