@@ -10,5 +10,6 @@ a:-webkit-any-link {
 
 span {
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: lighter
+  font-weight: lighter;
+  -webkit-tap-highlight-color: transparent;
 }

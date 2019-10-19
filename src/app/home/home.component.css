@@ -5,6 +5,7 @@ mat-grid-list {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: left;
+  padding: 10px;
 }
 
 .tile {
@@ -71,9 +72,10 @@ mat-progress-bar {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: auto;
   grid-gap: 1.2rem;
-  max-width: 900px;
+  max-width: 1200px;
   padding: 25px;
   background-color: #eeeeee;
   padding-top: 15px;
@@ -85,6 +87,7 @@ button {
   display:block;
   margin-bottom: 50px
 }
+
 
 .card {
   border-radius: 7px;
@@ -101,18 +104,11 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
-.profile {
-  margin:auto;
-}
-
 mat-card-title {
   cursor: pointer;
   font-family: 'Lexend Deca', sans-serif;
 }
 
-.header-image {
-  cursor: pointer;
-}
 
 .title {
   font-family: 'Quicksand', sans-serif;
