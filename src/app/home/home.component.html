@@ -28,7 +28,7 @@
      [matRippleUnbounded]="unbounded"
      [matRippleRadius]="radius"
      [matRippleColor]="color">
-  <img mat-card-image [src]="busker.image" alt="Photo of {{ busker.name }}">
+  <img img draggable="false" mat-card-image [src]="busker.image" alt="Photo of {{ busker.name }}">
   <mat-card-header >
     <mat-card-title>{{ busker.name }}</mat-card-title>
     <mat-card-subtitle style="color:white;">{{ busker.description }}</mat-card-subtitle>
